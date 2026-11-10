@@ -1,0 +1,29 @@
+{
+  "name": "mmm-mischiefholidayaccents",
+  "version": "0.1.0",
+  "description": "Seasonal decorations and frost that adapt to your mirror modules.",
+  "license": "MIT",
+  "author": "FoggEyez",
+  "keywords": [
+    "magicmirror",
+    "magicmirror-module",
+    "mischief",
+    "holiday",
+    "decorations",
+    "animation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FoggEyez/MMM-MischiefHolidayAccents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FoggEyez/MMM-MischiefHolidayAccents/issues"
+  },
+  "homepage": "https://github.com/FoggEyez/MMM-MischiefHolidayAccents#readme",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.cjs"
+  }
+}

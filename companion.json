@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "module": "MMM-MischiefHolidayAccents",
+  "title": "Mischief Holiday Accents",
+  "recommendedPosition": "fullscreen_above",
+  "singleInstance": true,
+  "requires": [],
+  "notes": "All supported settings are literal defaults in the module entry. No companion is required. This manifest documents the contract; current MMM-Config discovers defaults from JavaScript.",
+  "supportedSettings": [
+    "decorationSelectors",
+    "frostTargets",
+    "holidayMode",
+    "timeZone",
+    "decorOpacity",
+    "motifSize",
+    "particleCount",
+    "motionDuration",
+    "showCornerDecorations",
+    "showClockAccents",
+    "showDrift",
+    "showFrost",
+    "frostStrength",
+    "breezeEveryMinutes"
+  ]
+}
