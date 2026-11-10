@@ -1,6 +1,6 @@
 {
-  "name": "mmm-mischiefholidayaccents",
-  "version": "0.1.1",
+  "name": "mmm-mchf-rite",
+  "version": "0.2.0",
   "description": "Seasonal decorations and frost that adapt to your mirror modules.",
   "license": "MIT",
   "author": "FoggEyez",
@@ -14,12 +14,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/FoggEyez/MMM-MischiefHolidayAccents.git"
+    "url": "https://github.com/FoggEyez/MMM-MCHF-Rite.git"
   },
   "bugs": {
-    "url": "https://github.com/FoggEyez/MMM-MischiefHolidayAccents/issues"
+    "url": "https://github.com/FoggEyez/MMM-MCHF-Rite/issues"
   },
-  "homepage": "https://github.com/FoggEyez/MMM-MischiefHolidayAccents#readme",
+  "homepage": "https://github.com/FoggEyez/MMM-MCHF-Rite#readme",
   "engines": {
     "node": ">=22"
   },

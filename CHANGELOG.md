@@ -1,9 +1,7 @@
 # Changelog
 
-## 0.1.1
+## 0.2.0
 
-Make timezone boundary regression checks explicit so they run correctly on mirrors and CI outside the original timezone. Runtime continues to use the configured or system timezone.
+Shorter Mischief identity: MMM-MCHF-Rite. Shared earthy card surfaces and optional native entrance effects. Scene Studio, personal occasions, protected areas, dedicated holiday scenes and locally drawn detailed artwork.
 
-## 0.1.0
-
-Initial standalone Mischief package with configurable defaults, installation examples and companion metadata.
+Earlier releases used the previous longer Mischief module name.

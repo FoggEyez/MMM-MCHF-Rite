@@ -1,25 +1,23 @@
 {
   "schemaVersion": 1,
-  "module": "MMM-MischiefHolidayAccents",
-  "title": "Mischief Holiday Accents",
+  "module": "MMM-MCHF-Rite",
+  "title": "Mischief Rite · Holiday scenes",
   "recommendedPosition": "fullscreen_above",
   "singleInstance": true,
   "requires": [],
   "notes": "All supported settings are literal defaults in the module entry. No companion is required. This manifest documents the contract; current MMM-Config discovers defaults from JavaScript.",
   "supportedSettings": [
-    "decorationSelectors",
-    "frostTargets",
-    "holidayMode",
+    "sceneMode",
+    "activeScene",
+    "useBuiltInCalendar",
     "timeZone",
-    "decorOpacity",
-    "motifSize",
-    "particleCount",
-    "motionDuration",
-    "showCornerDecorations",
-    "showClockAccents",
-    "showDrift",
-    "showFrost",
-    "frostStrength",
-    "breezeEveryMinutes"
+    "motion",
+    "readabilityPadding",
+    "quietHours",
+    "targets",
+    "clearZones",
+    "occasions",
+    "scenes",
+    "holidayMode"
   ]
 }

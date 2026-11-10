@@ -1,0 +1,29 @@
+.MMM-MCHF-Rite{pointer-events:none!important}
+.mischief-scene-overlay{position:fixed;inset:0;z-index:4;pointer-events:none;overflow:hidden;--scene-color:#c8e9f3;--scene-accent:#d7b67b;--scene-strength:.68;--scene-speed:42s;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat}
+.mischief-scene-overlay[hidden],.mischief-scene-overlay [hidden]{display:none!important}
+.mischief-scene-overlay svg{width:100%;height:100%;display:block;overflow:visible}
+.mischief-target{position:absolute;opacity:calc(var(--scene-strength)*var(--target-strength,1));contain:layout style;pointer-events:none}
+.mischief-frost{position:absolute;inset:0;width:100%;height:100%;max-width:none;animation:mischief-frost-top calc(var(--scene-speed)*1.8) cubic-bezier(.2,.5,.2,1) infinite both;transform-origin:top;filter:drop-shadow(0 0 1px var(--scene-color))}
+.mischief-target:nth-child(2n) .mischief-frost{animation-delay:-17s}
+.edge-bottom .mischief-frost{animation-name:mischief-frost-bottom}.edge-left .mischief-frost{animation-name:mischief-frost-left}.edge-right .mischief-frost{animation-name:mischief-frost-right}
+.mischief-ornament{position:absolute;right:-17px;top:-25px;width:92px;height:92px;transform-origin:50% 75%;animation:mischief-branch 14s ease-in-out infinite alternate;filter:drop-shadow(1px 3px 2px #0008)}
+.edge-bottom .mischief-ornament{top:auto;bottom:-28px;right:-19px;rotate:18deg}.edge-left .mischief-ornament{left:-35px;right:auto;top:-18px;rotate:-22deg}.edge-right .mischief-ornament{right:-40px;top:10px;rotate:14deg}
+.mischief-ornament.ornament-pair{width:62px;height:62px;right:auto;left:-19px;top:-16px;rotate:-32deg;animation-delay:-6s}.edge-bottom .mischief-ornament.ornament-pair{top:auto;bottom:-22px}
+.mischief-stem{position:absolute;top:5px;left:22px;right:45px;height:1px;background:linear-gradient(90deg,transparent,var(--scene-accent),var(--scene-color),transparent);opacity:.6;transform-origin:left}.edge-bottom .mischief-stem{top:auto;bottom:5px}.edge-left .mischief-stem,.edge-right .mischief-stem{display:none}
+.mischief-edge-light{position:absolute;inset:4px;border:1px solid transparent;border-radius:14px;background:linear-gradient(110deg,var(--scene-color),transparent 25%,transparent 70%,var(--scene-accent)) border-box;mask:linear-gradient(#fff 0 0) padding-box,linear-gradient(#fff 0 0);mask-composite:exclude;opacity:.7;animation:mischief-light 8s ease-in-out infinite alternate}
+.mischief-drift{position:absolute;top:-45px;width:var(--size);height:var(--size);opacity:0;animation:mischief-drift var(--duration) linear var(--delay) infinite both;will-change:transform,opacity}
+.mischief-drift.particle-spark{animation-name:mischief-sparks}.particle-petal svg{transform:rotate(25deg)}
+.motion-gentle .mischief-ornament{animation-duration:25s}.motion-gentle .mischief-drift:nth-of-type(2n){display:none}.motion-gentle .mischief-drift{animation-duration:calc(var(--duration)*1.6)}
+.motion-still .mischief-frost{animation:none;opacity:.65;clip-path:none}.motion-still .mischief-ornament,.motion-still .mischief-edge-light{animation:none}.motion-still .mischief-drift{display:none}
+.scene-paused *{animation-play-state:paused!important}
+@keyframes mischief-frost-top{0%{opacity:0;clip-path:inset(0 0 100% 0)}24%,68%{opacity:.85;clip-path:inset(0)}100%{opacity:0;clip-path:inset(0)}}
+@keyframes mischief-frost-bottom{0%{opacity:0;clip-path:inset(100% 0 0 0)}24%,68%{opacity:.85;clip-path:inset(0)}100%{opacity:0;clip-path:inset(0)}}
+@keyframes mischief-frost-left{0%{opacity:0;clip-path:inset(0 100% 0 0)}24%,68%{opacity:.85;clip-path:inset(0)}100%{opacity:0;clip-path:inset(0)}}
+@keyframes mischief-frost-right{0%{opacity:0;clip-path:inset(0 0 0 100%)}24%,68%{opacity:.85;clip-path:inset(0)}100%{opacity:0;clip-path:inset(0)}}
+@keyframes mischief-branch{from{transform:rotate(-2deg) translate3d(0,0,0)}to{transform:rotate(2deg) translate3d(0,-2px,0)}}
+@keyframes mischief-light{from{opacity:.25}to{opacity:.75}}
+@keyframes mischief-drift{0%{transform:translate3d(0,-40px,0) rotate(-20deg);opacity:0}10%,82%{opacity:.6}45%{transform:translate3d(var(--sway),45vh,0) rotate(40deg)}100%{transform:translate3d(0,105vh,0) rotate(105deg);opacity:0}}
+@keyframes mischief-sparks{0%{transform:translate3d(0,102vh,0) scale(.4);opacity:0}18%,75%{opacity:.7}50%{transform:translate3d(var(--sway),50vh,0) scale(1)}100%{transform:translate3d(0,-35px,0) scale(.5);opacity:0}}
+@media(prefers-reduced-motion:reduce){.mischief-scene-overlay *{animation:none!important}.mischief-drift{display:none}.mischief-frost{opacity:.65;clip-path:none}}
+
+.particle-confetti{width:5px!important;height:12px!important;border-radius:1px;background:linear-gradient(100deg,var(--scene-color),var(--scene-accent),var(--scene-color));box-shadow:1px 1px 1px #0005}.particle-confetti:nth-child(3n){width:3px!important;height:8px!important}
