@@ -68,3 +68,7 @@ The repository was previously MMM-MischiefHolidayAccents. GitHub redirects prese
 ## Separate weather module
 
 [Mischief Atmos](https://github.com/FoggEyez/MMM-MCHF-Atmos) handles current-weather effects separately. Rite does not request weather or interpret forecasts. Both modules work independently; lower intensities and protected clear areas help when combining them.
+
+## Preview versus the mirror
+
+The message above the preview reports which scene the current settings would show now. For example, calendar mode can show Veterans Day poppies while Winter Glass is selected for editing. Use selected scene changes the mode to Always show selected scene. Then choose Save to mirror, or export and apply the configuration manually. To retain automatic holidays, leave the calendar mode selected.
