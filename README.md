@@ -63,3 +63,7 @@ See **[SCENE-STUDIO.md](SCENE-STUDIO.md)** for manual examples, every scene fiel
 Original Mischief vector/canvas code and geometry, MIT. No third-party image, generated video, sound or external scene service is needed. The older frost material/renderer may remain as legacy source but is not loaded by Rite. Report bugs with your platform, MagicMirror version and a minimal configuration without personal details.
 
 Run `npm ci` and `npm test`. See [VALIDATION.md](VALIDATION.md). Back up settings/customizations before `git pull --ff-only`; restart the mirror afterwards. To stop Rite, disable/remove its configuration entry. Older MMM-MischiefHolidayAccents installations require coordinated folder and config-name migration; preserve the old folder for rollback. See the studio guide.
+
+## Help and troubleshooting
+
+See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for common states and setup checks. [Open an issue](https://github.com/FoggEyez/MMM-MCHF-Rite/issues) with a minimal configuration that has secrets removed.

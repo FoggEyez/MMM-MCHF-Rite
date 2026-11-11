@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2
+
+Clearer scene selection and documentation; distinguishes previews from calendar-driven output. Updated troubleshooting and migration guidance.
+
 ## 0.2.1
 
 Scene Studio now states which scene the current display rules select, separately from the artwork being previewed. Use selected scene explicitly switches to manual mode; saving/exporting remains a separate step. Automatic Veterans Day poppies remain unchanged.

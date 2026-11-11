@@ -1,3 +1,5 @@
-# 0.2.1 public preview
+# 0.2.2 public preview
 
-Clarifies scene preview versus the automatic holiday display. The editor reports which scene the display rules select now and includes Use selected scene to choose manual mode before saving or exporting. Automatic Veterans Day remembrance remains unchanged.
+Clearer scene selection and documentation; distinguishes previews from calendar-driven output.
+
+Includes updated migration and troubleshooting guidance. Manual configuration remains supported; the companion is optional. Preview status and device/provider limitations remain documented in VALIDATION.md.
